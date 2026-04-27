@@ -57,3 +57,13 @@ To complete this exercise, I performed the following technical implementations:
     to train the model, perform evaluation, and obtain test images.
 
     ![CSI Result c](result_pictures/c_d1.png)
+
+## Result
+
+1. (b):
+
+    In sub-question b, the model was trained only on dataset1. The trained model was then tested on the test set of dataset1 and on test sets of datasets2-5, which have different user distributions. It can be observed that the model performs best (lowest NMSE) on the test set of dataset1 and is also superior to datasets2-5, demonstrating that the model's generality depends on the distribution of the training dataset.
+
+2. (c):
+
+    In sub-question c, the model is trained on a dataset consisting of a mixture of datasets 1-5. The trained model is then tested on the test sets of datasets 1-5. It can be observed that the model performs similarly on the test sets of datasets 1-5 (with similar NMSEs), further demonstrating that the model's generality depends on the distribution of the training dataset; the more diverse the distributions in the training dataset, the better the model's robustness.
