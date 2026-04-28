@@ -5,7 +5,7 @@ in both indoor and outdoor wireless environments. It supports different compress
 evaluates performance with NMSE (Normalized Mean Square Error) and correlation coefficient,
 and saves training logs, model weights, and reconstruction visualizations.
 """
-# 314513025 (b 小題)
+# 314513025 (c 小題)
 # [個人註解]: 標註有"[個人註解]"即為學生個人註解
 # [個人註解]: Notes marked "[個人註解]" are student's personal notes.
 
