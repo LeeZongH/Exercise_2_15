@@ -60,10 +60,13 @@ To complete this exercise, I performed the following technical implementations:
 
 ## Result
 
-1. (b):
+1. (a):
+    Different distributions are simulated by using preset configurations and changing the user's initial x and y position offsets.
+
+2. (b):
 
     In sub-question b, the model was trained only on dataset1. The trained model was then tested on the test set of dataset1 and on test sets of datasets2-5, which have different user distributions. It can be observed that the model performs best (lowest NMSE) on the test set of dataset1 and is also superior to datasets2-5, demonstrating that the model's generality depends on the distribution of the training dataset.
 
-2. (c):
+3. (c):
 
     In sub-question c, the model is trained on a dataset consisting of a mixture of datasets 1-5. The trained model is then tested on the test sets of datasets 1-5. It can be observed that the model performs similarly on the test sets of datasets 1-5 (with similar NMSEs), further demonstrating that the model's generality depends on the distribution of the training dataset; the more diverse the distributions in the training dataset, the better the model's robustness.
