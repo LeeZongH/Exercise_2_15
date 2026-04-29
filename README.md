@@ -1,4 +1,4 @@
-# Exercise 2.15: CSI Compression and Reconstruction using CsiNet and CS-CsiNet
+# Exercise 2.15: CSI Compression and Reconstruction using CsiNet
 
 ## Project Overview
 This repository implements exercises 2.15, specifically sub-questions a, b, and c, including the training and inference evaluation programs for gen_data.m (which generates the dataset), CsiNet_train_b.py, and CsiNet_train_c.py (corresponding to sub-questions b and c, respectively).
@@ -48,15 +48,11 @@ To complete this exercise, I performed the following technical implementations:
     ```
     to train the model, perform evaluation, and obtain test images.
 
-    ![CSI Result b](result_pictures/b_d1.png)
-
 4. Execute the 
     ```bash
     python CsiNet_train_c.py
     ```
     to train the model, perform evaluation, and obtain test images.
-
-    ![CSI Result c](result_pictures/c_d1.png)
 
 ## Result
 
@@ -67,6 +63,18 @@ To complete this exercise, I performed the following technical implementations:
 
     In sub-question b, the model was trained only on dataset1. The trained model was then tested on the test set of dataset1 and on test sets of datasets2-5, which have different user distributions. It can be observed that the model performs best (lowest NMSE) on the test set of dataset1 and is also superior to datasets2-5, demonstrating that the model's generality depends on the distribution of the training dataset.
 
+    ![CSI Result b1](result_pictures/b_d1.png)
+    ![CSI Result b2](result_pictures/b_d2.png)
+    ![CSI Result b3](result_pictures/b_d3.png)
+    ![CSI Result b4](result_pictures/b_d4.png)
+    ![CSI Result b5](result_pictures/b_d5.png)
+
 3. (c):
 
     In sub-question c, the model is trained on a dataset consisting of a mixture of datasets 1-5. The trained model is then tested on the test sets of datasets 1-5. It can be observed that the model performs similarly on the test sets of datasets 1-5 (with similar NMSEs), further demonstrating that the model's generality depends on the distribution of the training dataset; the more diverse the distributions in the training dataset, the better the model's robustness.
+
+    ![CSI Result c1](result_pictures/c_d1.png)
+    ![CSI Result c2](result_pictures/c_d2.png)
+    ![CSI Result c3](result_pictures/c_d3.png)
+    ![CSI Result c4](result_pictures/c_d4.png)
+    ![CSI Result c5](result_pictures/c_d5.png)
